@@ -1,0 +1,8 @@
+1 is parent folder 2 is baby folder
+- change settings.py in backend2
+- create api folder in backend1
+    - create serializer for frontend-backend communication (python -> js, js -> python)
+    - add views here
+- add urls to urls.py
+- run "python manage.py makemigrations" then "python manage.py migrate" to save the changes you made to the server
+- run python manage.py runserver to run server

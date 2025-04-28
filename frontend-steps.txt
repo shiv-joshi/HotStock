@@ -1,0 +1,8 @@
+- create a react app for frontend
+    - npm create vite@latest frontend -- --template react
+    - npm install react-router-dom jwt-decode axios
+- add folders to src as needed (pages, components, styles)
+- create a protectedroute to check if we are authorized in the frontend before makign a call
+- create routes for the pages
+- make a generic form that can be inherited from Login and Register
+- to connect backend and frontend store the localhost url the backend is running on in the .env file
